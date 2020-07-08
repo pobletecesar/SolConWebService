@@ -58,7 +58,7 @@ namespace AppConWebService
 
                 List<Post> lPost = (List<Post>)xmlSerial.Deserialize(xmlRead);
 
-
+                //creacion de pagina pdf
                 var pdfDoc = new Document(PageSize.LETTER, 40f, 40f, 60f, 60f);
                 string filePath = $"C://PDFs//report{DateTime.Now.ToString("yyyyMMddHHmmss")}.pdf";
                 PdfWriter.GetInstance(pdfDoc, new FileStream(filePath, FileMode.OpenOrCreate));
