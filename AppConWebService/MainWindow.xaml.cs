@@ -116,12 +116,16 @@ namespace AppConWebService
                     DeliveryMethod = SmtpDeliveryMethod.Network,
                     UseDefaultCredentials = false,
                     Credentials = new System.Net.NetworkCredential("", "")
+
+
+
                 };
 
                 mail.From = new MailAddress("cesar2kx@gmail.com");
                 mail.To.Add("c.pobletes@profesor.duoc.cl");
                 mail.To.Add("javie.castrom@alumnos.duoc.cl");
                 mail.To.Add("jord.lopezr@alumnos.duoc.cl");
+                mail.To.Add("j.carcamoh@alumnos.duoc.cl");
                 mail.To.Add("j.carcamoh@alumnos.duoc.cl");
                 mail.Subject = "REPORTE BLOG";
                 mail.Body = "Adjuntamos reporte de su blog";
