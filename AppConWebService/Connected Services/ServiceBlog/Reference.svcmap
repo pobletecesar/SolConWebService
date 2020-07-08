@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f58df5fb-ca83-41b9-b94e-592182551809" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55953/BlogSvc.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BlogSvc.xsd" MetadataType="Schema" ID="50c11fb3-436d-4561-9516-1b388061f40d" SourceId="1" SourceUrl="http://localhost:55953/BlogSvc.svc?xsd=xsd0" />
+    <MetadataFile FileName="BlogSvc1.xsd" MetadataType="Schema" ID="ded17392-7cda-4c0f-a9c6-1707eb110db0" SourceId="1" SourceUrl="http://localhost:55953/BlogSvc.svc?xsd=xsd1" />
+    <MetadataFile FileName="BlogSvc.wsdl" MetadataType="Wsdl" ID="feb702e3-be74-4d75-9da2-3a8ff13129fa" SourceId="1" SourceUrl="http://localhost:55953/BlogSvc.svc?wsdl" />
+    <MetadataFile FileName="BlogSvc.disco" MetadataType="Disco" ID="06676ed5-0c90-4371-9693-ed3d55bb6260" SourceId="1" SourceUrl="http://localhost:55953/BlogSvc.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
