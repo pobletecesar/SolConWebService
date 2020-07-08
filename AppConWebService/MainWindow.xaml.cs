@@ -77,7 +77,7 @@ namespace AppConWebService
                 {
                     HorizontalAlignment = 1,
                     MinimumHeight = 20f,
-                    Colspan = 3
+                    Colspan = columns
                 };
 
                 tabla.AddCell(celdaT);
